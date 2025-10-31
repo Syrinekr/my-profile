@@ -1,0 +1,71 @@
+/* Basic page setup */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9fafc;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+/* Header */
+header {
+  background-color: #3b82f6;
+  color: white;
+  padding: 40px 20px;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid white;
+}
+
+/* Sections */
+main {
+  padding: 40px 20px;
+}
+
+section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #2563eb;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #e0ecff;
+  margin: 5px auto;
+  padding: 10px;
+  border-radius: 8px;
+  width: fit-content;
+}
+
+/* Social links */
+.social-links a {
+  margin: 0 10px;
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.social-links a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  background-color: #1e3a8a;
+  color: white;
+  padding: 10px 0;
+  font-size: 0.9em;
+}
